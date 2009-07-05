@@ -15,7 +15,9 @@ packages without altering any submodule.
 
 The general idea here is that you'd create a PyPI package for
 the namespace and then attach the individual subpackages
-to the namespace. Something like:
+to the namespace.
+
+Something like::
 
     # mynamespace.py
     import namespace
