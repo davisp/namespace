@@ -24,7 +24,7 @@ Something like::
     ns = namespace.Namespace()
     ns.proxy("mynamespace.web", "django")
 
-And then client packages could use this namespace package as:
+And then client packages could use this namespace package as::
 
     import mynamespace.web.forms as forms
 
